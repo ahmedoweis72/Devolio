@@ -1,0 +1,359 @@
+.home
+{
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+} 
+ .home h1
+{
+  font-style: normal;
+  font-size: 72px;
+  font-weight: 600;
+  line-height:  86px;
+  color: #ffffff;
+}
+.home p
+{
+  font-style: normal;
+  font-size: 40px;
+  font-weight: 600;
+  line-height:  60px;
+  color: #ffffff;
+}
+
+
+.overlay
+{
+  height: 100vh;
+  position: absolute;
+  
+  left: 0;
+  right: 0;
+  ;
+  z-index:2;
+  background-color: rgba(0, 0, 0, 0.664);
+}
+.anime span::before
+{
+  content: "";
+  animation: typing 5s infinite;
+}
+@keyframes typing
+{
+  0%{ content: "D";}
+  2%{ content: "De";}
+  4%{ content: "Des";}
+  6%{ content: "Desi";}
+  8%{ content: "Desig";}
+  10%{ content: "Design";}
+  12%{ content: "Designe";}
+  14%{ content: "Designer";}
+  16%{ content: "Designe";}
+  18%{ content: "Design";}
+  20%{ content: "Desig";}
+  22%{ content: "Desi";}
+  24%{ content: "Des";}
+  26%{ content: "De";}
+  28%{ content: "Dev";}
+  30%{ content: "Devl";}
+  32%{ content: "Devlo";}
+  34%{ content: "Devlop";}
+  36%{ content: "Devlope";}
+  38%{ content: "Devloper";}
+  40%{ content: "Devlope";}
+  42%{ content: "Devlop";}
+  44%{ content: "Devlo";}
+  46%{ content: "Devl";}
+  48%{ content: "Dev";}
+  50%{ content: "De";}
+  52%{ content: "D";}
+  54%{ content: "F";}
+  56%{ content: "Fr";}
+  58%{ content: "Fre";}
+  60%{ content: "Free";}
+  62%{ content: "Freel";}
+  64%{ content: "Freela";}
+  66%{ content: "Freelan";}
+  68%{ content: "Freelanc";}
+  70%{ content: "Freelance";}
+  72%{ content: "Freelancer";}
+  74%{ content: "Freelance";}
+  78%{ content: "Freelanc";}
+  80%{ content: "Freelan";}
+  82%{ content: "Freela";}
+  84%{ content: "Freel";}
+  86%{ content: "Free";}
+  88%{ content: "Fre";}
+  90%{ content: "Fr";}
+  92%{ content: "F";}
+  94%{ content: "";}
+
+}
+@media only screen and (max-width: 600px) {
+  .home h1
+{
+  font-style: normal;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  color: #ffffff;
+}
+.home p
+{
+  font-style: normal;
+  font-size: 24x;
+  font-weight: 600;
+  line-height: 36px;
+  color: #ffffff;
+}
+}
+/* --------------------------------------------------about-------------------------------------------------- */
+.title-box-2 {
+  margin-bottom: 3rem;
+}
+
+.title-left {
+  font-size: 2rem;
+  position: relative;
+}
+
+.title-left:before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -12px;
+}
+.width
+{
+  width: 50%;
+}
+.width-80
+{
+  width: 80%;
+}
+
+.row
+  {
+    width: 100%;
+  }
+  .row .col-md-4
+  {
+    width: 50%;
+  }
+  .row .col-md-8
+  {
+    width: 50%;
+  }
+
+
+  
+
+
+/* -------------------------------------------------services------------------------------------------------- */
+
+.service-box{
+  width: 30%;
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff;
+  
+}
+.service-box p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color:rgb(78, 78, 78);
+}
+.service-box h2{
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 500;
+  color:rgb(30, 30, 30);
+}
+.title-cserv {
+  font-size: 2rem;
+  position: relative;
+}
+.title-cserv:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  background-color: #0078ff;
+  width: 50px;
+  bottom: -12px;
+  left: 48%;
+  
+}
+
+
+
+/* -------------------------------------------------services------------------------------------------------- */
+.cserv
+{
+  background-image: url(../images/counters-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
+}
+.overlay-cserv
+{
+  height: 70vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index:2;
+  background-color: #1c71d27a;
+}
+.overlay-cserv-content
+{
+  width: 75px;
+  height: 75px;
+  border-radius: 50% 50%;
+  border: rgb(19, 102, 228) solid 5px;
+}
+
+.card-width{
+  width: 30%;
+  overflow: hidden;
+ }
+
+ .card-width img
+ {
+  transition: all 2s ease-in-out;
+ }
+.card-width:hover img{
+  transform: scaleX(1.2);
+}
+
+
+
+ .bg-slider{
+  background-image: url(../images/overlay-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+ }
+
+ .overlay-slider
+{
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index:2;
+  background-color: #0571b9cc;
+}
+ .bg-footer{
+  background-image: url(../images/overlay-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+ }
+
+ .overlay-footer
+{
+  position: relative;
+ height: 100%;
+ width: 100%;
+  z-index:2;
+  background-color: #0571b9cc;
+}
+.card-title:hover
+{
+  color: #0078ff;
+}
+.service-box .ico-circle {
+  transition: all 500ms ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.ico-circle {
+  height: 80px;
+  width: 80px;
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 1.55;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  display: block;
+}
+.ico-circle:hover
+{
+  background-color: #0077ff9c;
+}
+.socials .ico-circle
+{
+  height: 35px;
+  width: 35px;
+  font-size: 24px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #0078ff;
+  color: #000;
+  display: block;
+}
+.copyright
+{
+  background-color:#0062D3;
+}
+
+@media screen  and (min-width: 575px) {
+  .width-md-50{
+    width: 50%;
+   }
+   .width-md-100{
+    width: 100%;
+   }
+   .width-md-85{
+    width: 85%;
+   }
+ }
+@media screen  and (max-width: 1000px) {
+  .width-lg-50{
+    width: 40%;
+   }
+   .width-lg-100{
+    width: 100%;
+   }
+   .width-lg-85{
+    width: 85%;
+   }
+ }
+ @media screen  and (max-width: 575px) {
+  .cardof{
+   flex-direction: column;
+  }
+  .overlay-cserv{
+   flex-direction: column;
+   height: 100vh;
+  
+  }
+  .cserv{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   
+  }
+  .service-box{
+   width: 100%;
+   text-align: center;
+   padding: 10px;
+   background-color: #ffffff;
+   
+ }
+ .width-sm{
+  width: 100%;
+ }
+ .width-sm-95{
+  width: 95%;
+ }
+ }
