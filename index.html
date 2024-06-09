@@ -18,51 +18,29 @@
   <link rel="stylesheet" href="css/index_style.css">
 </head>
 
-<body class="bg-body-secondary">
-  <nav class="navbar navbar-expand-lg sticky-top bg-black bg-opacity-75 ">
-    <div class="container-fluid navbar-expand-lg  w-75 ">
+<body data-bs-spy="scroll" data-bs-target="#nav-id" class="bg-body-secondary">
 
-      <a class="nav-link active text-white fs-2 fw-bold" aria-current="page" href="#">DevFolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
+  <nav class="navbar navbar-expand-lg fixed-top z-3 bg-white " id="nav-id">
+    <div class="container-fluid">
+        <a class="navbar-brand ms-sm-5 ps-sm-5 fw-bolder" href="#">DevFolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav  fw-bold fs-6">
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">SERVICES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">WORK</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">BLOG</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu text-white">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">CONTACT</a>
-          </li>
+      <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end me-5" id="navbarSupportedContent">
+        <ul class="navbar-nav d-sm-flex justify-content-center align-items-center align-content-around nav-underline me-md-5">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link " href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link " href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link " href="#team">Team</a></li>
+            <li class="nav-item"><a class="nav-link " href="#works">Works</a></li>
+            <li class="nav-item"><a class="nav-link " href="#BLOG">BLOG</a></li>
+            <li class="nav-item"><a class="nav-link " href="#CONTACT">Contact</a></li>
         </ul>
       </div>
     </div>
-  </nav>
-  <home>
+  </nav> 
+
+  <home id="home">
     <div class="home">
       <div class="overlay flex-row flex-lg-row flex-md-row flex-sm-row  text-center align-content-center">
         <div class="container-fluid text-sm-center text-md-center text-lg-center">
@@ -72,7 +50,7 @@
       </div>
     </div>
   </home>
-  <about>
+  <about id="about">
     <div class="container-fluid bg-body-secondary pt-5 pt-5 ">
       <div class="container-fluid ">
         <div class="container bg-white d-md-flex py-5 ">
@@ -150,7 +128,7 @@
       </div>
     </div>
   </about>
-  <services class="bg-body-secondary  ">
+  <services id="services" class="bg-body-secondary  ">
     <div class="container-fluid bg-body-secondary text-center ">
       <div class="bg-body-secondary pt-5 pb-5">
         <h1>SERVICES</h1>
@@ -242,7 +220,7 @@
     </div>
 
   </services>
-  <section>
+  <section id="team">
     <div class="cserv my-5 ">
       <div class="overlay-cserv container-fluid d-flex flex-lg-row justify-content-around ">
         <div class=" d-flex align-items-center  rounded-3 justify-content-center flex-column text-center ">
@@ -300,7 +278,7 @@
       </div>
     </div>
   </section>
-  <portfolio>
+  <portfolio id="works">
     <div class="container-fluid bg-body-secondary py-5">
       <div class="bg-body-secondary text-center mb-5 ">
         <h1 class="pt-5">PORTFOLIO</h1>
@@ -429,7 +407,7 @@
       </div>
     </div>
   </section>
-  <BLOG>
+  <BLOG id="BLOG">
     <div class="container-fluid bg-body-secondary m-auto ">
       <div class="">
         <div class="bg-body-secondary text-center m-auto ">
@@ -499,7 +477,7 @@
       </div>
     </div>
   </BLOG>
-  <footer>
+  <footer id="CONTACT">
     <div class="bg-footer  ">
       <div class="overlay-footer py-5 ">
         <div class="container-fluid  width-md-85  width-sm-95  my-md-5 p-md-5 bg-white ">
